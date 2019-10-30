@@ -1,0 +1,18 @@
+{% extends 'base.html'%}
+
+{% block content%}
+
+<!--<div class="container form-inline my-2 my-lg-0">-->
+<!--    <form  method="POST">-->
+<!--        {% csrf_token %}-->
+<!--    {{ form.as_p }}-->
+<!--    <input type="submit" value="OK">-->
+<!--    </form>-->
+<!--</div>-->
+
+<div class = "container">
+    <a href="{% url 'encrypt' %}" style=" margin-top: 50px "> ENCRYPT </a>
+
+</div>
+
+{% endblock%}
